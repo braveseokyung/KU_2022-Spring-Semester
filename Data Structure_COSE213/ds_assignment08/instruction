@@ -1,0 +1,14 @@
+Assignment 8. Trie 구현
+첨부된 파일:
+파일 assignment08.zip (174.083 Kb)
+주어진 소스파일(trie.c 또는 permuterm_trie.c) 중 하나를 완성한다.
+- 소스파일에는 함수의 원형(prototype)만 선언되어 있으며, 함수를 직접 정의해야 함
+- main 함수에 있는 주석을 제거하여 실행 파일(trie 또는 permuterm_trie)과 같이 실행되도록 수정해야 함
+- valgrind를 통해 메모리 누수(memory leak) 현상을 제거해야 함
+- 와일드카드 검색을 위한 함수 구현시 가산점 부여함 (50%)
+- 과제 설명에 대한 강의는 "강의자료 -> 14주차"에 있음
+- 실행 방법
+$ ./trie words_ordered.txt
+$ ./permuterm_trie words_ordered.txt
+- 제출파일: trie.c 또는 permuterm_trie.c (둘 중 하나만 제출하면 됨)
+- 제출마감: 6월 15일 23:59:00까지
